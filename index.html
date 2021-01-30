@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+  <title>Frontend Mentor | Four card feature section</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    body {
+      font-size: 15px;
+      font-family: Poppins;
+
+      background-color: hsl(0, 0%, 98%);
+    }
+    .container {
+      width: 100%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+
+      flex-direction: column;
+    }
+
+    .container .title {
+      width: 600px;
+      text-align: center;
+    }
+
+    .cards {
+      display: flex;
+
+      align-items: center;
+      justify-content: center;
+
+      
+    }
+
+    .cards .card {
+      width: 400px;
+      height: 300px;
+
+      background-color: white;
+      box-shadow: hsl(220, 2%, 30%);
+
+      border-radius: 15px;
+
+      margin: 0px 20px;
+
+      display: flex;
+      flex-direction: column;
+
+    }
+
+    .cards .card h2, p {
+      margin-left: 25px;
+      margin-top: 25px;
+    }
+
+    .cards .center-card h2,p {
+      margin-top: 25px;
+    }
+
+    .cards .supervisor {
+      border-top: 5px solid hsl(180, 62%, 55%);
+    }
+    .cards .card img{
+      width: 90px;
+
+      align-self: flex-end;
+
+      margin-top: 20px;
+      margin-right: 40px;
+      
+    }
+
+    .cards .center-card .team-builder {
+      border-top: 5px solid hsl(0, 78%, 62%);
+
+    }
+    .cards .center-card .karma {
+      border-top: 5px solid hsl(34, 97%, 64%);
+      margin-top: 20px;
+    }
+
+    .cards .calculator {
+      border-top: 5px solid hsl(212, 86%, 64%);
+    }
+
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+
+    @media (max-width: 1300px) {
+     .cards {
+       flex-direction: column;
+     }
+
+     @media (max-width: 600px) {
+       .container .title{
+         width: 300px;
+       }
+     }
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="title">
+      <h1>
+        Reliable, efficient delivery<br/>
+        <span>
+          Powered by Technology
+
+        </span>
+      </h1>
+      <p>
+        Our Artificial Intelligence powered tools use millions of project data points 
+        to ensure that your project is successful
+      </p>
+    </div>
+
+    <div class="cards">
+      <div class="supervisor card">
+        <h2>
+          Supervisor
+        </h2>
+        <p>
+          Monitors activity to identify project roadblocks
+        </p>
+        <img src="./images/icon-supervisor.svg" alt="Supervisor" >
+      </div>
+
+      <div class="center-card">
+        <div class="team-builder card">
+          <h2>
+            Team Builder
+
+          </h2>
+          <p>
+            Scans our talent network to create the optimal team for your project
+
+          </p>
+          <img src="./images/icon-team-builder.svg" alt="Team Builder icon" srcset="">
+        </div>
+        <div class="karma card">
+          <h2>
+            Karma
+
+          </h2>
+          <p>
+            Regularly evaluates our talent to ensure quality
+            
+          </p>
+          <img src="./images/icon-karma.svg" alt="Karma Icon" srcset="">
+        </div>
+      </div>
+      <div class="calculator card">
+        <h2>
+          
+          Calculator
+        </h2>
+        <p>
+
+          Uses data from past projects to provide better delivery estimates
+        </p>
+        <img src="./images/icon-calculator.svg" alt="" srcset="">
+      </div>
+    </div>
+  </div>
+  
+
+
+
+
+
+
+  
+  <footer>
+    <p class="attribution">
+      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+      Coded by <a href="https://github.com/danielVaini">Daniel Vaini</a>.
+    </p>
+  </footer>
+</body>
+</html>
