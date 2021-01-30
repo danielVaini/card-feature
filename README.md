@@ -2,6 +2,8 @@
 
 ![Design preview for the Four card feature section coding challenge](./design/desktop-preview.jpg)
 
+![Hospedagem](https://card-feature-5wu9wiqmx.vercel.app/)
+
 ## Welcome! 👋
 
 Thanks for checking out this front-end coding challenge.
