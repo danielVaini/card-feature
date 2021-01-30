@@ -2,7 +2,7 @@
 
 ![Design preview for the Four card feature section coding challenge](./design/desktop-preview.jpg)
 
-![Hospedagem](https://card-feature-5wu9wiqmx.vercel.app/)
+[Hospedagem](https://card-feature-5wu9wiqmx.vercel.app/)
 
 ## Welcome! 👋
 
